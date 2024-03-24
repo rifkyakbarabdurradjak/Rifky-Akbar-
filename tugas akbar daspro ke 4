@@ -1,0 +1,10 @@
+decimal = int(input("Masukkan bilangan desimal : "))
+
+binary = bin(decimal)
+print("Hasil Konversi ke bilangan Biner :", (binary))
+
+octal = oct(decimal)
+print("Hasil Konversi ke bilangan Oktal :", (octal))
+
+hexadecimal = hex(decimal)
+print("Hasil Konversi ke bilangan Heksadesimal :", (hexadecimal))
